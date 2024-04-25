@@ -51,20 +51,6 @@ if(isset($_REQUEST["masach"])){
 ?>
 
 <body>
-
-<?php
-
-// include_once "controller/ctlsanpham.php";
-
-// $csanpham = new csanpham();
-// $result = $csanpham->getallsp();
-
-// if ($result == -1 || $result == 0) {
-//     echo "Không có dữ liệu hoặc có lỗi xảy ra";
-// } else {
-//     $r = $result->fetch_assoc(); // Lấy ra bản ghi đầu tiên
-// }
-    ?>
 <h2> <center>SỬA SÁCH</center></h2>
 	<form action="#" method="post" enctype="multipart/form-data">
 		<table style="margin: auto; text-align: left">
@@ -92,13 +78,6 @@ if(isset($_REQUEST["masach"])){
 				<td>Giá Sách</td>
 				<td><input type="number" name="txtgia" required value="<?php echo $row['gia']?>"></td>
 			</tr>
-			<!-- <tr>
-				<td>tên Loại Sách</td>
-				<td><input type="txt" name="txtmaloaisach" value="<?php
-				//  echo $row['cty']
-				 ?>"></td>
-			</tr>
-		 -->
 			<tr>
 				<td>Công ty sach</td>
 				<td>
@@ -136,7 +115,6 @@ if(isset($_REQUEST["masach"])){
 				<td> 
 					<input type="submit" name="btnsua" value="Cập nhật">
 					<input type="button" name="btnhuy" value="Hủy" onclick="window.location='admin.php?aProd';">
-					<!-- <input type="reset"  name ='tbnnl' value='Hủy'> -->
 				</td>
 			</tr>
 		</table>
