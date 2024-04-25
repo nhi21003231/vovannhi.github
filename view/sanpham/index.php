@@ -34,7 +34,7 @@
             $tblsp = $p->getallsp();
         }
         if($tblsp==false){
-            echo "error ";
+            echo "0 result ";
         }elseif(!$tblsp) 
         echo"0 result";
         else {
