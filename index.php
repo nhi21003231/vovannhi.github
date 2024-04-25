@@ -51,7 +51,7 @@ session_start();
     <div class="container">
         <table>
             <tr>
-		        <td colspan="2"><img src="../web_ck/backgr.png"width ="500px"></td>
+		        <td colspan="2"><img src="../web_ck/backg.png"width ="500px"></td>
 	        </tr>
             <tr>
                 <td colspan="" style="width: 300px;">

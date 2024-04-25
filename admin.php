@@ -43,7 +43,7 @@
 <body>
 	<table border="1px solid" style="margin: auto; text-align: center; width: 960px">
 		<tr >
-			<td colspan="2"><img src="../web_ck/backgr.png" width = "50%"></td>
+			<td colspan="2"><img src="../web_ck/backg.png" width = "50%"></td>
 		</tr>
 		<tr>
 			<td colspan="2"><a href="index.php">Trang chủ</a></td>
